@@ -1,4 +1,4 @@
-{% set version = "2.1.4" %}
+{% set version = "2.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/repo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/repo/repo_{{ version }}.tar.gz
-  sha256: e5e1f94b88ee5daacdab9d5ea8aedfcfb01d025e624cc3a95cca4e0504942211
+  sha256: c9910453465c1ec3a899b16596a9f2b30187045cc5b86bc2ad44af79869aed8d
 
 build:
   noarch: generic
