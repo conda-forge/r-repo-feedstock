@@ -1,11 +1,11 @@
-About r-repo
-============
+About r-repo-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-repo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=repo
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-repo-feedstock/blob/main/LICENSE.txt)
 
 Summary: A data manager meant to avoid manual storage/retrieval of data to/from the file system. It builds one (or more) centralized repository where R objects are stored with rich annotations, including corresponding code chunks, and easily searched and retrieved.
 
